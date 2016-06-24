@@ -1,0 +1,31 @@
+{
+  "name": "personal-website",
+  "version": "0.2.5",
+  "description": "node.js app for personal website",
+  "engines": {
+    "node": "4.4.4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-animate": "^1.5.6",
+    "angular-route": "^1.5.5",
+    "bower": "^1.7.9",
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/personal-website-cpfowlke"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "devDependencies": {
+    "protractor": "^3.3.0"
+  }
+}

@@ -1,0 +1,70 @@
+<script>
+$("a #project").on("click", function() {
+    $(".nav #projects").find(".active").removeClass("active");
+    $(this).parent().addClass("active");
+});
+</script>
+<div class="container">
+    <div id="top"></div>
+    <div class="page-header">
+        <h1>Projects</h1>
+    </div>
+    <div class="col-md-3">
+        <ul class="nav">
+            <li>
+                <a href="" ng-click="activate('goals')">Goals Based Wealth Management Transformation</a>
+            </li>
+            <li>
+                <a href="" ng-click="activate('digital')">Digital Transformation for Customer Experiences</a>
+            </li>
+            <li>
+                <a href="" ng-click="activate('pdo')">Product Configuration</a>
+            </li>
+            <li>
+                <a href="" ng-click="activate('ibm')">IBM Smarter Process Framework</a>
+            </li>
+            <li>
+                <a href="" ng-click="activate('ltl')">LTL Optimization</a>
+            </li>
+            <li>
+                <a href="" ng-click="activate('inventory')">Inventory Stocking Strategy</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+        <p class="lead" id="goals">Goals Based Wealth Management - Test Automation Lead</p>
+        <p>Automation test lead designing and implementing a test automation framework in Protractor.js for an Angular web application. I also worked with the management team to implement JIRA boards, agile processes, and implementing workflow associated with sprinting.</p>
+        <p class="lead" id="digital">Global Digital Transformation for Customer Experiences - Test Automation Lead / Trainer</p>
+        <p>Automation test lead working with teams distributed across the US to build out the digital next generation customer experience for consumer banking at a top banking client. I led the test delivery for three payments streams at the client site, as well as built out a technical boot camp to train high potential candidates internally within IBM. </p>
+        <p class="lead" id="pdo">Big Three Automotive Manufacturer - Product Configuration Business Analyst</p>
+        <p>Worked with business customers for requirements gathering and executed the implementation of product configuration web services, one which powered the revenue recognition for all vehicles produced by the client. Managed and collaborated with a global team using the client’s agile delivery method. Provided innovative use of SQL, VBA, and XML parsing to build tools to accelerate requirements understanding for business analysts.</p>
+        <p class="lead" id="ibm">IBM Smarter Process Framework - Data Analyst/Developer</p>
+        <p>Analyzed scaled agile projects to define benchmarks for common development elements. Designed and developed an estimation framework for use with pricing scaled agile implementations.</p>
+        <p class="lead" id="ltl">US Distribution Company - Optimization of Less Than Truckload Transportation</p>
+        <p>Developed an innovative software solution for data intensive routing problem. Utilized Google Maps API for routing and distance resources and an exhaustive search algorithm to determine optimal shipping quantities.</p>
+        <p>Designed, drafted, and built a GUI in Visual Basic. Reduced transportation costs by up to 20% in high volume locations</p>
+        <p class="lead" id="inventory">US Manufacturing and Repair Company - Inventory Planning Analyst</p>
+        <p>Facilitated a $36 million initial infusion of product into an opening distribution center.</p>
+        <p>Created and implemented inter-departmental dashboard for infusion, as well as recorded processes and best practices for future distribution center openings.</p>
+        <p>Modeled a future state stocking and deployment policy encompassing 441 thousand products carried by Grainger, using product attributes to determine network distribution. Potential savings of $7.6 million a year.
+        </p>
+    </div>
+    <div class="page-header">
+        <h1>Other</h1>
+    </div>
+    <div class="col-md-3">
+        <ul class="nav bs-docs-sidenav">
+            <li>
+                <a href="">3D Modeling and Data Transformation</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+        <p class="lead">Chemical Engineering Software - 3D Modeling and Data Transformation</p>
+        The first and only known online cloud based XYZ to STL converstion tool on the market for molecules. Tech stack: Bootstrap, HTML5, Python Flask for webservices, OCC 3D Open Source Modeling Package, Amazon S3 for Database, Amazon EC2 for Virtualized Server to host the webservices, Git for code management
+        
+    </div>
+    <div class="center">
+        <a href="" ng-click="activate('top')"  class="visible-md">Scroll to Top</a>
+    </div>
+</div>
